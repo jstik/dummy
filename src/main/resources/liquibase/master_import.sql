@@ -1,0 +1,2 @@
+INSERT INTO "TENANT"(NAME, url, dbUser, db_password) VALUES ('tenant1', 'jdbc:oracle:thin:@localhost:1521/pdborcl', 't1', 'sa');
+INSERT INTO "TENANT"(NAME, url, dbUser, db_password) VALUES ('tenant2', 'jdbc:oracle:thin:@localhost:1521/pdborcl', 't1', 'sa');

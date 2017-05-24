@@ -1,0 +1,12 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+#hero {
+  background-color: aqua;
+}
+#hero h1, h2 {
+  display: inline;
+}
