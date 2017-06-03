@@ -4,7 +4,7 @@ import { DashboardComponent }   from './dashboard.component';
 import { HeroComponent }      from './hero.component';
 import { HeroDetailComponent }  from './hero-detail.component';
 
-const router =[
+const router : Routes=[
   {
     path: 'heroes',
     component: HeroComponent
@@ -28,4 +28,6 @@ const router =[
   imports: [ RouterModule.forRoot(router) ],
   exports: [ RouterModule ]
 })
-export class AppRoutingModule {}
+
+export const routing = RouterModule.forRoot(router);
+//export class AppRoutingModule {}
